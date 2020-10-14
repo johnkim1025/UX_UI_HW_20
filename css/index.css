@@ -1,0 +1,464 @@
+h1, h2, h3, h4, h5, h6, p, button, a, ul, li, input, label {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 50pt;
+    font-weight: 900;
+    margin: 10px 0 10px 0;
+}
+h2 {
+    font-size: 50pt;
+    font-weight: 400;
+    margin: 10px 0 10px 0;
+}
+p {
+    font-size: 20pt;
+}
+body {
+    margin: 0;
+}
+label {
+    font-size: 18pt;
+}
+input {
+    height: 50px;
+    width: 50vh;
+    font-size: 20pt;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    padding-left: 20px;
+}
+input:focus {
+    outline-color: #751113;
+    outline-style: solid;
+    outline-width: 3px;
+}
+button:focus {
+    outline: none;
+}
+.content-label {
+    margin-bottom: 10px;
+}
+                                                    /* Navigation */
+.left-header a {
+    text-decoration: none;
+    color: black;
+}
+.navigation {
+    margin: 25px 50px 0 50px;
+}
+.bioINFO p {
+    font-size: 25pt;
+}
+.info-left {
+    width: 500px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+}
+.header .left-header img {
+    width: 90px;
+    height: 75px;
+}
+.left-header {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+.left-header p {
+    font-size: 45px;
+    margin-top: 25px;
+    margin-left: -10px;
+}
+.right-header .navBar {
+    list-style-type: none;
+    padding-top: 40px;
+}
+.nav-Home:hover {
+    box-shadow: 0 3px #F47820;    
+}
+.nav-Home:active {
+    transform: translateY(4px);
+}
+.nav-Aboutme:hover {
+    box-shadow: 0 3px #F47820;
+}
+.navBar li {
+    display: inline-block;
+}
+.navBar li a {
+    font-size: 20pt;
+    text-decoration: none;
+    margin: 0 30px 0 30px;
+    color: black;
+    font-weight: 500;
+}
+                                                    /* Info Section */
+.mobile-char {
+    display: none;
+}
+.intro {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.info-left {
+    padding: 100px 100px 0 200px;
+    justify-content: center;
+    align-items: center;
+}
+.info-right {
+    padding: 50px 100px 0 100px;
+}
+.profilePIC {
+    height: 800px;
+    padding-right: 200px;
+}
+.icons {
+    width: 75px;
+    padding: 0 0 16px 0;
+}
+.icons:hover {
+    opacity: 0.7;
+}
+.icons:active {
+    opacity: initial;
+    transform: translateY(4px);
+}
+#linkedin {
+    margin-right: 25px;
+}
+.resumebtn {
+    border-radius: 8px;
+    background-color: #F47820;
+    border: none;
+    color: white;
+    width: 175px;
+    height: 50px;
+    font-size: 18pt;
+}
+.resumebtn:hover {
+    opacity: 0.7;
+}
+.resumebtn:active {
+    opacity: initial;
+    background-color: #e05e00;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+                                                    /* Projects */
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10% 0 10%;
+}
+.ayuda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 25vw;
+    background-color: #270E14;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+#ayuda-info {
+    padding: 40px;
+    display: none;
+    color: white;
+}
+#plantp-info {
+    padding: 40px;
+    display: none;
+    color: white;
+}
+.plantp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 25vw;
+    background-color: #751113;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+#ayuda-logo-img {
+    width: 250px;
+}
+#plantp-logo-img {
+    width: 250px;
+}
+.project-button {
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    color: #270E14;
+    width: 175px;
+    height: 50px;
+    font-size: 18pt;
+}
+                                                    /* Connect Section */
+.connect {
+    margin: 80px 40px 0 40px;
+    padding: 50px 0 50px 0;
+    background-color: #E5E5E5;
+}
+.connect-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.connect-input-section {
+    height: 200px;
+}
+.name-section {
+    display: flex;
+    flex-direction: column;
+}
+.connect-content {
+    display: inline-block;
+}
+.email-section {
+    margin: 0 20px 0 20px;
+}
+#submitbtn {
+    margin-top: 45px;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    border: none;
+    background-color: #751113;
+    color: white;
+    font-size: 18pt;
+}
+#submitbtn:hover {
+    opacity: 0.7;
+}
+#submitbtn:active {
+    opacity: initial;
+    background-color: #5a0607;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+                                                    /* Footer */
+.site-footer {
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-links li {
+    display: inline-block;
+}
+.footer-links li a {
+    font-size: 20pt;
+    text-decoration: none;
+    padding: 0 30px 0 30px;
+    color: black;
+    font-weight: 500;
+}
+.copyright {
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1700px) {
+    /* Info */
+    .mobile-char {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 250px;
+    }
+    .intro {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 25pt;
+        
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 25pt;
+        padding: 0 70px;
+    }
+    .bioINFO p {
+        text-align: center;
+        font-size: 15pt;
+        padding: 0 20px;
+    }
+    .info-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+    }
+    .info-right {
+        display: none;
+    }
+    .icons {
+        pointer-events: none;
+        width: 75px;
+        padding: 0 0 16px 0;
+    }
+    #linkedin {
+        margin-right: 25px;
+    }
+    .resumebtn {
+        pointer-events: none;
+        margin-bottom: 60px;
+    }
+    #ayuda-click {
+        text-align: center;
+    }
+    #plantp-click {
+        text-align: center;
+    }
+    #ayuda-info p {
+        font-size: 16pt;
+    }
+    #plantp-info p {
+        font-size: 16pt;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .ayuda {
+        width: 40vh;
+        height: 40vh;
+    }
+    .plantp {
+        width: 40vh;
+        height: 40vh;
+    }
+    #ayuda-logo-img {
+        width: 20vh;
+    }
+    #plantp-logo-img {
+        width: 20vh;
+    }
+    .connect-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .connect-input-section {
+        height: 100%;
+        margin-bottom: 0;
+    }
+    input {
+        box-shadow: none;
+        outline-style: none;
+    }
+    .name-section {
+        display: block;
+    }
+    .email-section {
+        margin: 0 0px 0 0px;
+    }
+    #submitbtn {
+        margin-top: 20px;
+        height: 75px;
+        width: 200px;
+        border-radius: 8px;
+        border: none;
+        background-color: #751113;
+        color: white;
+        font-size: 20pt;
+    }
+    .connect-content {
+        display: block;
+        margin-top: 20px;
+    }
+    #submitbtn {
+        pointer-events: none;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    /* Navigation */
+.navigation {
+margin: 0px;
+}
+.header {
+display: flex;
+flex-direction: row;
+}
+.header .left-header img {
+height: auto;
+width: 72px;
+}
+.left-header {
+display: flex;
+flex-direction: row;
+flex-grow: 1;
+}
+.left-header p {
+font-size: 30px;
+margin-top: 25px;
+margin-left: -10px;
+}
+.right-header {
+display: none;
+}
+.nav-Home:hover {
+box-shadow: 0 3px #F47820;    
+}
+.nav-Home:active {
+transform: translateY(4px);
+}
+.nav-Aboutme:hover {
+box-shadow: 0 3px #F47820;
+}
+.navBar li {
+display: inline-block;
+}
+.navBar li a {
+font-size: 20pt;
+text-decoration: none;
+padding: 0 30px 0 30px;
+color: black;
+font-weight: 500;
+}
+    /* Projects */
+
+    /* Form */
+
+    /* Footer */
+.site-footer {
+margin-top: 160px;
+}
+}
+@media only screen and (max-width: 650px) {
+    .projects {
+        flex-direction: column;
+    }
+    .ayuda {
+        width: 40vh;
+        height: 40vh;
+        margin: 20px 20px 20px 20px;
+    }
+    .plantp {
+        width: 40vh;
+        height: 40vh;
+        margin: 20px 20px 20px 20px;
+    }
+    input {
+        width: 275px;
+        font-size: 16pt;
+        padding: 0;
+        text-align: center;
+    }
+}
