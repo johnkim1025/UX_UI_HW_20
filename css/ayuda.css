@@ -1,0 +1,43 @@
+.ayuda-cs {
+    padding: 0 200px 0 200px;
+}
+#what-idid {
+    font-size: 50pt;
+}
+.card {
+    border: none;
+}
+.card-body {
+    font-size: 20pt;
+}
+.card-header {
+    background-color: rgba(0,0,0,0);
+    border-bottom: 0 solid rgba(0,0,0,.125);
+}
+.btn-link {
+    font-weight: 900;
+    color: black;
+    font-size: 18pt;
+}
+.ayuda-dropdowns {
+    margin-top: 60px;
+}
+.btn-link.focus, .btn-link:focus {
+    text-decoration: none;
+    box-shadow: none;
+    color: #F47820;
+}
+.focus {
+    display: none;
+}
+.btn-link:hover {
+    color: #F47820;
+    text-decoration: none;
+}
+form {
+    margin-top: 80px;
+}
+.cs-imgs {
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
